@@ -19,11 +19,8 @@ morgan.token('date', (req, res, tz) => {
   return moment().format('DD-MM-YYYY, HH:mm');
 });
 
-morgan.token('resp', (req, res, tz) => {
-  return JSON.stringify(res.body)
-});
 
-loggerConfig.use(morgan(`[:date] :method :url | :status | :response-time ms | Params: :params Body: :body Resp: :resp`, 
+loggerConfig.use(morgan(`[:date] :method :url | :status | :response-time ms | Params: :params Body: :body`, 
 { 
   stream: accessLogStream, 
   skip: (req, res) => req.url === '/readLog' || req.url === '/clearLog'
