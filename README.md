@@ -48,4 +48,6 @@ http://localhost:8787/clearLog
 
 As seguintes tecnologias foram usadas na construção do projeto:
 
-#### **Server**  ([NodeJs](https://nodejs.org/en/))
+#### [NodeJs](https://nodejs.org/en/)
+#### [Express](https://expressjs.com/pt-br/)
+#### [Morgan](https://www.npmjs.com/package/morgan)
