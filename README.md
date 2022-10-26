@@ -27,19 +27,19 @@ $ npm start
 
 ## Endpoints
 
-# GET - Status da API
+### GET - Status da API
 http://localhost:8787/
 
-# GET - Recebe uma resposta de está ou não finalizado
+### GET - Recebe uma resposta de está ou não finalizado
 http://localhost:8787/random/:id
 
-# POST - Gera um ID Randomico junto ao Body, a requisição é respondida em um intervalo de até 10s (random)
+### POST - Gera um ID Randomico junto ao Body, a requisição é respondida em um intervalo de até 10s (random)
 http://localhost:8787/postNumber
 
-# GET - Mostra o log da aplicação
+### GET - Mostra o log da aplicação
 http://localhost:8787/readLog
 
-# DELETE - Limpa o log da aplicação
+### DELETE - Limpa o log da aplicação
 http://localhost:8787/clearLog
 
 ---
