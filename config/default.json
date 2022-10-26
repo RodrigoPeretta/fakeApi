@@ -1,0 +1,6 @@
+{
+  "server": {
+    "port" : 8787
+  },
+  "logger": "./log/logger.log"
+}
