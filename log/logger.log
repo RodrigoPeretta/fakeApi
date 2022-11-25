@@ -8,3 +8,4 @@
 [25-10-2022, 23:23] GET /random/12 | 200 | 3.392 ms | Params: {"id":"12"} Body: {} Resp: -
 [25-10-2022, 23:23] GET /random/12 | 200 | 3.206 ms | Params: {"id":"12"} Body: {} Resp: -
 [25-10-2022, 23:34] GET /random/12 | 200 | 3.109 ms | Params: {"id":"12"} Body: {} | Response: -
+[25-11-2022, 18:45] POST /postNumber/multipart | 200 | 289.526 ms | Params: {} Body: {"Teste":"lalala","Teste2":"lululu"}

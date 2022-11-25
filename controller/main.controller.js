@@ -20,5 +20,13 @@
     }, ramdomTimeoutResp); 
   }
 
+  mainController.postNumberMultiPart = (req, res) => {
+    var ramdomID = Math.round(Math.random() * 100);
+    var ramdomTimeoutResp = Math.random() * 10000;
+
+    setTimeout(() => {
+      res.status(200).json({id: ramdomID, data: req.body});
+    }, ramdomTimeoutResp); 
+  }
 
 export default mainController;
